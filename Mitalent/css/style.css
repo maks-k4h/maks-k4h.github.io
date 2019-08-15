@@ -1232,12 +1232,18 @@ footer{
 	}
 	#intro-sliader-button i{
 	font-size: 25px;
-}
+  }
+	#new6 #new-heading{
+		font-size: 14px;
+	}
+	.new4-heading{
+		font-size: 19px;
+	}
 }
 
 @media screen and (max-width: 1205px) {
 	.new-heading{
-	font-size: 13px;
+	font-size: 11px;
 	}
 	#intro-slider-name{
 		font-size: 50px;
@@ -1249,7 +1255,7 @@ footer{
 		font-size: 18px;
 	}
 	#new6 #new-heading{
-		font-size: 14px;
+		font-size: 13px;
 	}
 	#new5-slider-step div{
 		border: 2px solid #fff;
