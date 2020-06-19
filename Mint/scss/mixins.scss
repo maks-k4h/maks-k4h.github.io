@@ -1,0 +1,16 @@
+@mixin flex($direction: row){
+	display: flex;
+	flex-direction: $direction;
+	justify-content: space-between;
+}
+
+@mixin transition($time:.5s){
+	transition: $time ease;
+}
+
+@mixin texthover{
+	@include transition;
+	&:hover{
+		color:$yellow;
+	}
+}
