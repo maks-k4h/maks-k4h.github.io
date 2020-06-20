@@ -121,10 +121,9 @@ randomHero();
 function randomHero(){
 	hero = Math.floor(Math.random()*225);
 	while (player.indexOf(hero) != -1 ) {
-          If(hero<225){
+          If (hero < 225){
             hero++;
-          }
-          else{
+          } else{
             hero = 0;
           }
 	}
