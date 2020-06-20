@@ -126,7 +126,8 @@ function randomHero(){
                         if(hero < 224){
                           hero++;
                          
-                        } else{
+                        }
+                        else{
                           hero = 0;
                         }
 			
