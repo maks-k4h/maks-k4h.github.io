@@ -121,9 +121,9 @@ randomHero();
 function randomHero(){
 	hero = Math.floor(Math.random()*225);
 	for (var i = player.length - 1; i >= 0; i--) {
-		if (hero == player[i]){
+		while (hero == player[i]){
 			i = -1;
-
+			hero+=15;
 			randomHero();
 		}
 	}
