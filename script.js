@@ -124,7 +124,9 @@ function randomHero(){
           If(hero<225){
             hero++;
           }
-          else{hero = 0;}
+          else{
+            hero = 0;
+          }
 	}
 	console.log(hero);
 	document.getElementById('pixel' + hero).style.backgroundColor = 'white';
