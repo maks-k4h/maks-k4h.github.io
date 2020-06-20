@@ -122,7 +122,7 @@ function randomHero(){
 	hero = Math.floor(Math.random()*225);
 	for (var i = player.length - 1; i >= 0; i--) {
 		if (hero == player[i]){
-                        i = player.length;
+                        i = player.length - 1;
                         if(hero < 224){
                           hero++;
                          
