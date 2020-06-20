@@ -120,12 +120,17 @@ out = document.getElementById('score');
 randomHero();
 function randomHero(){
 	hero = Math.floor(Math.random()*225);
-	while (player.indexOf(hero) != -1 ) {
-          If (hero < 225){
-            hero++;
-          } else{
-            hero = 0;
-          }
+	for (var i = player.length - 1; i >= 0; i--) {
+		if (hero == player[i]){
+                        i = player.length;
+                        if(hero < 224){
+                          hero++;
+                         
+                        } else{
+                          hero = 0;
+                        }
+			
+		}
 	}
 	console.log(hero);
 	document.getElementById('pixel' + hero).style.backgroundColor = 'white';
